@@ -81,5 +81,4 @@ colnames(req_dataset2)[which(names(req_dataset2) == "Group.1")] <- "subject_ID"
 colnames(req_dataset2)[which(names(req_dataset2) == "Group.2")] <- "activity_ID"
 #writing the tidy set into a text file in working directory
 write.table(req_dataset2, "tidy_dataset.txt", row.name=FALSE)
-unique(req_dataset2$activity_ID)
-req_dataset2$`TimeBodyAccelerometer-mean()-X`
+
